@@ -1,0 +1,33 @@
+.card{
+	background:linear-gradient(to bottom,transparent 50%,transparent 50%);
+	max-width: 300px;
+	border: 0px;	
+	margin: 30px;
+	text-align: center;
+	font-family: arial;
+}
+.card img{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	text-align: left;
+	float: fixed;
+	border:5px solid #6B6F79;
+}
+.cover {
+	margin-bottom: 500px;
+	height:200px;
+	max-width: 300px;
+	border-radius: 0px;
+	margin: 10px;
+	text-align: center;
+	font-family: arial;
+}
+.cover img{
+	float:fixed;
+	border:3px solid #6b6f79;
+	border-radius:10%;
+	margin-bottom:400px;
+	width:1310px;
+	height:290px;
+}

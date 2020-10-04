@@ -1,0 +1,93 @@
+	body{
+		background: linear-gradient(135deg,#485461 0%,#28313b 74%); 
+		background-repeat:no-repeat;
+		background-size:cover;
+		height:700px; 
+	}
+	.preview{
+		left:450px;
+	}
+
+	.preview img{
+		max-height:670px;
+	}
+	.feed i{
+		color:#fff;
+	}
+	.feed i:hover{
+		color:blue;
+	}
+	/*button{
+		background:transparent;
+		height:60px;
+		width:130px;
+		border:2px solid transparent;
+		border-radius: 0%;
+	}
+	button:hover{
+		background: transparent;
+	}*/
+
+	.feed{
+		display: flex;
+	}
+	.like2{
+		margin-left:25px; 
+	}
+	.like3{
+		margin-left: 24px;
+	}
+	.card{
+		background: black;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		max-height:550px;
+		max-width: 500px;
+		border:2px solid #000;
+		margin-top:;
+		margin-left:410px;
+		text-align: center;
+		font-family: arial;
+	}
+	.card img{
+		margin-color:#045a;
+		margin-left: 77px;
+		max-width:350px;
+		height:700px;
+	}
+	.title{
+		background-color:linear-gradient(135deg,#485461 0%,#28313b 74%);
+		color: grey;
+		font-size: 18px;
+	}
+
+	button{
+		border:3px solid #000;
+		outline:0;
+		display:inline-block;
+		padding: 9px;
+		color:white;
+		background-color: #000;
+		text-align: center;
+		cursor: pointer;
+		width:500px;
+		font-size: 18px;
+		background-image:linear-gradient(135deg,#485461 0%,#28313b 74%);
+		background-repeat: no-repeat;
+		height:70px;
+	}
+	#update_profile{
+		position: absolute;
+		cursor: pointer;
+		padding: 10px;
+		border-radius: 4px;
+		color:white;
+		background-color: #000;
+	}
+	label{
+		padding:7px;
+		display: table;
+		color:#fff;
+	}
+	input[type="file"]{
+		display: none;
+	}
